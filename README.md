@@ -65,25 +65,19 @@ The dataset used is the **UCI SMS Spam Collection Dataset**, which contains over
 
 ## ⚙️ How to Run
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/Officialojih/SMS-Spam-Detection.git
-   cd SMS-Spam-Detection
-   ```
-
-2. **Create a virtual environment (recommended)**  
+1. **Create a virtual environment (recommended)**  
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Mac/Linux
    venv\Scripts\activate      # On Windows
    ```
 
-3. **Install dependencies**  
+2. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Download NLTK resources**  
+3. **Download NLTK resources**  
    In a Python shell or notebook, run:  
    ```python
    import nltk
@@ -91,7 +85,7 @@ The dataset used is the **UCI SMS Spam Collection Dataset**, which contains over
    nltk.download('punkt')
    ```
 
-5. **Run the Notebook**  
+4. **Run the Notebook**  
    ```bash
    jupyter notebook notebook.ipynb
    ```
@@ -103,9 +97,3 @@ The dataset used is the **UCI SMS Spam Collection Dataset**, which contains over
 - Experiment with advanced models (Logistic Regression, SVM, Random Forest).  
 - Use **Word Embeddings (Word2Vec, GloVe, BERT)** for improved feature representation.  
 - Build a **Streamlit Web App** for real-time SMS spam classification.  
-
----
-
-## 👨‍🎓 About Me  
-
-I’m **James Ojih (@Officialojih)**, a **Mechatronics Engineering graduate** with a passion for **Data Science, Machine Learning, AI, and Robotics**. This project reflects my journey into NLP and my ability to apply data-driven approaches to real-world problems.  
